@@ -6,10 +6,6 @@ const port = 3000;
 
 let displaydata='';
 
-
-
-
-
 https.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY', (resp) => {
   let data = '';
 
